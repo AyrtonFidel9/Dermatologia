@@ -9,7 +9,12 @@ namespace WebAppDermatologia.Controllers
     public class HOmeController : Controller
     {
         // GET: HOme
-        public ActionResult Index()
+        public ActionResult Inicio()
+        {
+            return View();
+        }
+
+        public ActionResult Citas()
         {
             return View();
         }

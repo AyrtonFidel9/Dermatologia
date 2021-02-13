@@ -1,0 +1,237 @@
+﻿h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+#menuIzq {
+    width: 6%;
+    height: 100%;
+    background-color: #4CB4C7;
+}
+
+nav div ul{
+    float: left;
+}
+
+main {
+    width: 94%;
+    height: 100%;
+    background-color: #BCFBF8;
+}
+
+    main header {
+        /*background-color: #4CB4C7;*/
+        background-color: #50C0D4;
+    }
+
+#encabezado{
+    display: flex;
+    height: 10%;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+
+nav .fa-bars, nav .fa-times {
+    font-size: 48px;
+    pointer-events: none;
+}
+
+nav {
+    width: 6%;
+    height: 100%;
+    background: rgb(255, 236, 69);
+    position: relative;
+}
+
+
+nav > div > i, nav > div > input {
+    padding-top: 10px;
+}
+
+nav input:checked > ul li {
+    display: block;
+    width: 100%;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+nav li {
+    width: 2.364em;
+    height: 60px;
+    list-style: none;
+    margin: 5px;
+    text-decoration: none;
+    padding-left: 30px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 600;
+}
+
+
+
+    nav li:hover {
+        background-color: #ABEFFB;
+        cursor: pointer;
+        transition-property: all;
+        transition-duration: 0.1s;
+        transition-timing-function: ease-in;
+    }
+
+#menuIzq {
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+    a:hover {
+        color: black;
+    }
+
+ul {
+    padding-top: 68px;
+}
+
+nav input:checked ~ .fa-bars {
+    display: none;
+}
+
+#loginAct:checked ~ #loginsops {
+    display: block;
+    padding-top: 150px;
+}
+
+#loginAct, #loginOP > div {
+    position: absolute;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    right: 0;
+    top: 0;
+}
+
+header{
+    position: relative;
+}
+#loginAct {
+    width: 100px;
+    height: 50px;
+    opacity: 0;
+}
+
+#loginAct:hover{
+    cursor: pointer;
+}
+
+
+    nav input:not(:checked) ~ .fa-times {
+        display: none;
+    }
+
+nav > div > input, nav > div > i {
+    position: absolute;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    right: 0;
+    top: 0;
+}
+
+nav div ul {
+    transform: translateX(-50px);
+}
+
+
+nav > div > i {
+    margin-top: 8px;
+    padding-right: 19px;
+}
+
+nav > div > input {
+    opacity: 0;
+    width: 80px;
+    height: 60px;
+}
+
+    nav > div > input:hover {
+        cursor: pointer;
+    }
+
+ul a li {
+    font-size: 40px;
+    color: #1F1F1F;
+}
+
+#cuerpo {
+    background-color: #ABEFFB;
+    height: 90%;
+    width: 100%;
+}
+
+#loginOP {
+    width: 20%;
+    float: right;
+    font-size: 22px;
+}
+#loginOP div i{
+    font-size: 30px;
+}
+
+#loginsops {
+    display: none;
+}
+
+#loginOP div:hover{
+    background-color: aqua;
+}
+
+#loginsops {
+    list-style: none;
+    font-size: 25px;
+    background-color: aqua;
+}
+
+
+
+    #loginOP div:hover ~ #loginsops > li {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+        #loginsops > li:hover{
+            background-color: aliceblue;
+        }   
