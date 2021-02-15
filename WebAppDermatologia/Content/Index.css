@@ -8,6 +8,12 @@ h6{
     margin: 0;
 }
 
+
+
+
+
+
+
 html {
     width: 100%;
     height: 100%;
@@ -15,8 +21,6 @@ html {
 }
 
 body {
-    display: flex;
-    flex-direction: row;
     width: 100%;
     height: 100%;
     background-color: #ABEFFB;
@@ -33,7 +37,7 @@ nav div ul{
 }
 
 main {
-    width: 94%;
+    width: 100%;
     height: 100%;
     background-color: #BCFBF8;
 }
@@ -206,7 +210,7 @@ ul a li {
 }
 
 #loginOP {
-    width: 12em;
+    width: 13em;
     float: right;
     font-size: 22px; 
     padding-left: 12px;
@@ -238,7 +242,20 @@ ul a li {
     
 }
 
+label:hover{
+    cursor: pointer;
+}
 
+
+#opcionesMen a {
+    font-size: 30px;
+    color: #4D4D4D;
+}
+
+#opcionesMen a:hover{
+    color: black;
+    cursor: pointer;
+}
 
    /* #loginOP div:hover ~ #loginsops > li {
         display: flex;
