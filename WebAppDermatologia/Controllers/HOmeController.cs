@@ -14,6 +14,13 @@ namespace WebAppDermatologia.Controllers
             return View();
         }
 
+       
+
+        public ActionResult Empleado()
+        {
+            return View();
+        }
+
         public ActionResult Citas()
         {
             return View();
