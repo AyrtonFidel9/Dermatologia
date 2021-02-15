@@ -148,6 +148,7 @@
     <Content Include="Content\Login.css" />
     <Content Include="Content\main.css" />
     <Content Include="Content\normalize.css" />
+    <Content Include="Content\StyleHistoria.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
