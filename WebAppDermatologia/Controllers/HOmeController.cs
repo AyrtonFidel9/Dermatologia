@@ -14,7 +14,12 @@ namespace WebAppDermatologia.Controllers
             return View();
         }
 
-        public ActionResult Citas()
+        public ActionResult Reservas()
+        {
+            return View();
+        }
+
+        public ActionResult NuevaReserva()
         {
             return View();
         }
