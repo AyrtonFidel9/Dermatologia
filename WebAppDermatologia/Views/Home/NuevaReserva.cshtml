@@ -1,0 +1,44 @@
+﻿
+@{
+    ViewBag.Title = "NuevaReserva";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Nueva Reserva</h2>
+<div class="row">
+    <div class="col-md-12">
+        <div>
+            @Html.Label("ID Reserva")<br />
+            @Html.TextBox("ID Reserva")
+        </div>
+        <div>
+            @Html.Label("ID Paciente")<br />
+            @Html.TextBox("ID Paciente")
+        </div>
+        <div>
+            @Html.Label("Fecha")<br />
+            @Html.TextBox("Fecha")
+        </div>
+        <div>
+            @Html.Label("Fecha")<br />
+            @Html.TextBox("Fecha")
+        </div>
+        <div>
+            @Html.Label("Servicio")<br />
+            @Html.TextBox("Servicio")
+        </div>
+        <div>
+            @Html.Label("Observaciones")<br />
+            @Html.TextBox("Observaciones")
+        </div>
+        <div>
+            @Html.Label("Estado")<br />
+            @Html.TextBox("Estado")
+        </div>
+        <br />
+        <div style="text-align:right; padding-right:20px;">
+            <input value="Guardar Reserva" class="btn btn-primary" type="submit"/>
+        </div>
+    </div>
+
+</div>
