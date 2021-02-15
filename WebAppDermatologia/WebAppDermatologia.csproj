@@ -141,6 +141,7 @@
     <Content Include="Content\bootstrap-reboot.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\EstylePac.css" />
     <Content Include="Content\Index.css" />
     <Content Include="Content\Inicio.css" />
     <Content Include="Content\Login.css" />
@@ -281,6 +282,7 @@
     <Content Include="Scripts\popper-utils.js.map" />
     <Content Include="Views\Home\Reservas.cshtml" />
     <Content Include="Views\Home\NuevaReserva.cshtml" />
+    <Content Include="Views\Home\Pacientes.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

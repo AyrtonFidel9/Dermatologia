@@ -1,0 +1,40 @@
+﻿@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Pacifico&display=swap");
+
+* {
+    box-sizing: border-box;
+    font-family: "Open Sans";
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    font-family: "Pacifico";
+    font-size: 70px;
+    height: 200px;
+    padding: 20px;
+    background: #019cde;
+    color: white;
+    cursor: pointer;
+}
+
+.nav {
+    float: left;
+    width: 100%;
+    background: #222;
+    color: white;
+    padding: 0 20px;
+    transition: 0.3s ease all;
+    backface-visibility: hidden;
+    transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+}
+
+nav {
+    display: inline-block;
+}
+
+    nav ul {
+        margin: 0;
+        padding: 0;
+        display: inline-block;
+    }
