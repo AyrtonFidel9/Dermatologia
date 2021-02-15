@@ -1,0 +1,27 @@
+﻿#encabezadoInicio {
+    text-align: center;
+    border-style: solid;
+    width: 75em;
+    height: 3em;
+    border-radius: 8px;
+    background-color: #4CB4C7;
+    border-color: #4CB4C7;
+    box-shadow: 0.5px 0.5px 10px 0.5px black;
+    margin-bottom: 20px;
+}
+
+#cuerpoInicio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#reportes {
+    width: 75em;
+    border-radius: 8px;
+    background-color: #4CB4C7;
+    border-color: #4CB4C7;
+    box-shadow: 0.5px 0.5px 10px 0.5px black;
+    height: 29em;
+}

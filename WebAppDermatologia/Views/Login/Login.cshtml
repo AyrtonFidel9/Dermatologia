@@ -30,11 +30,11 @@
                 <div class="mb-3" style="padding-bottom:9px;">
                     <label for="inputPassword" class="form-label">Contraseña</label>
                     <input type="password" class="form-control" id="inputPassword">
-                    <a href="~/Views/Home/Inicio">¿Ha olvidado su contraseña?</a>
+                    <a href="@Url.Action("Inicio","Home")">¿Ha olvidado su contraseña?</a>
                 </div>
                 <br />
                 <center>
-                    <a href="~/Views/Home/Inicio.cshtml">
+                    <a href="@Url.Action("Inicio","Home")">
                         <input type="submit" class="btn btn-success boton" value="Ingresar" />
                     </a>
                 </center>
