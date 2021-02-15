@@ -1,0 +1,76 @@
+﻿
+@{
+    ViewBag.Title = "Historia";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link rel="stylesheet" href="~/Content/StyleHistoria.css" />
+
+<div id="agrupar">
+    <div id="agruparTitulo">
+        <h2>Historia Clínica</h2>
+    </div>
+    <div id="agruparBotones">
+        <button type="button">Agregar</button>
+        <button type="button">Modificar</button>
+        <button type="button">Eliminar</button>
+        <button type="button">Buscar</button>
+    </div>
+    <form id="agruparDatos">
+        <div class="dividir">
+            <div class="caja">
+                <label for="idPaciente">Identificación del paciente</label>
+                <input type="text" name="idPaciente" id="idPaciente" />
+            </div>
+            <div class="caja">
+                <label>Id Historia Clinica</label>
+                <input type="text" name="idHistoria" id="idHistoria" />
+            </div>
+            <div class="caja">
+                <label for="nombres">Nombres</label>
+                <input type="text" name="nombres" id="nombres" />
+            </div>
+            <div class="caja">
+                <label>Sexo</label>
+                <select name="SelectSexo" id="SelectSexo">
+                    <option value="value1">Masculino</option>
+                    <option value="value2">Femenino</option>
+                </select>
+            </div>
+            <div class="caja">
+                <label>Fecha de nacimiento</label>
+                <input type="date" name="fecNac" id="fecNac" />
+            </div>
+            <div class="caja">
+                <label for="foto">Fotografias</label>
+                <img id="foto" src="" />
+            </div>
+        </div>
+
+
+        <div class="dividir">
+            <div class="caja">
+                <label>Antecedentes médicos</label><br />
+                <textarea name="textAntecedente" id="textAntecedente" class="cajaTexto"></textarea>
+            </div>
+            <div class="caja">
+                <label>Alergías</label><br />
+                <textarea name="textAlergia" id="textAlergia" class="cajaTexto"></textarea>
+            </div>
+            <div class="caja">
+                <label>Enfermedades Hereditarias</label><br />
+                <textarea name="textEnfermedad" id="textEnfermedad" class="cajaTexto"></textarea>
+            </div>
+            <div class="caja">
+                <label>Observaciones</label><br />
+                <textarea name="observación" id="observacion" class="cajaTexto"></textarea>
+            </div>
+        </div>
+
+    </form>
+
+
+
+</div>
+
+

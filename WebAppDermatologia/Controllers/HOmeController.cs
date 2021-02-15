@@ -29,6 +29,16 @@ namespace WebAppDermatologia.Controllers
             return View();
         }
 
+        public ActionResult Empleado()
+        {
+            return View();
+        }
+        public ActionResult Historia()
+        {
+            return View();
+        }
+
+
         // GET: HOme/Details/5
         public ActionResult Details(int id)
         {
